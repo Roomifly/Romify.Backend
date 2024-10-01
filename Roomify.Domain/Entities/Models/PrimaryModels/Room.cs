@@ -1,4 +1,4 @@
-﻿namespace Roomify.Domain.Entities.Models
+﻿namespace Roomify.Domain.Entities.Models.PrimaryModels
 {
     public class Room
     {

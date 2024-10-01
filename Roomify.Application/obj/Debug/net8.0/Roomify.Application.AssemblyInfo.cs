@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Roomify.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21201aa337662f067313c832d55db7b51554e348")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0dd9b0a9e9084f7f695726d8c474d72270fa2c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Roomify.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Roomify.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

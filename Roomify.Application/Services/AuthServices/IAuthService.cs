@@ -1,4 +1,4 @@
-﻿using Roomify.Domain.Entities.Models;
+﻿using Roomify.Domain.Entities.Models.PrimaryModels;
 
 namespace Roomify.Application.Services.AuthServices
 {

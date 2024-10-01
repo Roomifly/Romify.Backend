@@ -1,6 +1,6 @@
 ﻿using Roomify.Domain.Entities.Enums;
 
-namespace Roomify.Domain.Entities.Models
+namespace Roomify.Domain.Entities.Models.PrimaryModels
 {
     public class User
     {

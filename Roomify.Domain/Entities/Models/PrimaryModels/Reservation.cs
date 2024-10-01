@@ -1,6 +1,6 @@
 ﻿using Roomify.Domain.Entities.Enums;
 
-namespace Roomify.Domain.Entities.Models
+namespace Roomify.Domain.Entities.Models.PrimaryModels
 {
     public class Reservation
     {
@@ -9,6 +9,6 @@ namespace Roomify.Domain.Entities.Models
         public Room Room { get; set; }
         public WeekDays Day { get; set; }
         public TimeOnly StartTime { get; set; }
-        public TimeOnly FinishTime { get; set;}
+        public TimeOnly FinishTime { get; set; }
     }
 }

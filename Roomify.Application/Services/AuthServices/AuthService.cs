@@ -1,10 +1,10 @@
-﻿using Roomify.Domain.Entities.Models;
-using System.Globalization;
+﻿using System.Globalization;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.IdentityModel.Tokens;
+using Roomify.Domain.Entities.Models.PrimaryModels;
 
 namespace Roomify.Application.Services.AuthServices
 {

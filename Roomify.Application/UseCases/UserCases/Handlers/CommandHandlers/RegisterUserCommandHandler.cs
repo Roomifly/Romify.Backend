@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
+using Roomify.Application.UseCases.UserCases.Commands;
+using Roomify.Domain.Entities.Views;
 
 namespace Roomify.Application.UseCases.UserCases.Handlers.CommandHandlers
 {
-    internal class RegisterUserCommandHandler
+    public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, ResponseModel>
     {
+        public Task<ResponseModel> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
