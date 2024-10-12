@@ -6,7 +6,7 @@ using System.Net;
 
 namespace Roomify.Application.Services.EmailServices
 {
-    public class EmailService
+    public class EmailService:IEmailService
     {
         private readonly IConfiguration _configuration;
 

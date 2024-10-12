@@ -1,0 +1,16 @@
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\bin\Debug\net8.0\Roomify.Application.deps.json
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\bin\Debug\net8.0\Roomify.Application.dll
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\bin\Debug\net8.0\Roomify.Application.pdb
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\bin\Debug\net8.0\Roomify.Domain.dll
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\bin\Debug\net8.0\Roomify.Domain.pdb
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\Roomify.Application.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\Roomify.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\Roomify.Application.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\Roomify.Application.AssemblyInfo.cs
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\Roomify.Application.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\Roomify.Application.sourcelink.json
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\Roomify..1F0B2EFE.Up2Date
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\Roomify.Application.dll
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\refint\Roomify.Application.dll
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\Roomify.Application.pdb
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Application\obj\Debug\net8.0\ref\Roomify.Application.dll

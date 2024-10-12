@@ -1,5 +1,7 @@
 ﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using Roomify.Application.Services.EmailServices;
+using Roomify.Application.Services.PasswordService;
 using System.Reflection;
 
 namespace Roomify.Application
@@ -9,6 +11,8 @@ namespace Roomify.Application
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddMediatR(Assembly.GetExecutingAssembly());
+            services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IPasswordService, PasswordService>();
 
             return services;
         }
