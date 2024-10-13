@@ -3,6 +3,6 @@
     public class PasswordModel
     {
         public string PasswordHash { get; set; }
-        public byte[] PassworSalt { get; set; }
+        public byte[] PasswordSalt { get; set; }
     }
 }

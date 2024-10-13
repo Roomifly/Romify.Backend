@@ -11,7 +11,7 @@ namespace Roomify.Application.Services.PasswordService
             string PasswordHash = Convert.ToHexString(
                 Rfc2898DeriveBytes.Pbkdf2(
                     Encoding.UTF8.GetBytes(password),
-                    passwordModel.PassworSalt,
+                    passwordModel.PasswordSalt,
                     350000,
                     HashAlgorithmName.SHA512,
                     64));
@@ -23,11 +23,11 @@ namespace Roomify.Application.Services.PasswordService
         {
             PasswordModel passwordModel = new PasswordModel();
 
-            passwordModel.PassworSalt = RandomNumberGenerator.GetBytes(64);
+            passwordModel.PasswordSalt = RandomNumberGenerator.GetBytes(64);
             passwordModel.PasswordHash = Convert.ToHexString(
                 Rfc2898DeriveBytes.Pbkdf2(
                     Encoding.UTF8.GetBytes(password),
-                    passwordModel.PassworSalt,
+                    passwordModel.PasswordSalt,
                     350000,
                     HashAlgorithmName.SHA512,
                     64));

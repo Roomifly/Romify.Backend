@@ -16,3 +16,5 @@ C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Infrastructure\obj\Debug\ne
 C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Infrastructure\obj\Debug\net8.0\refint\Roomify.Infrastructure.dll
 C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Infrastructure\obj\Debug\net8.0\Roomify.Infrastructure.pdb
 C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Infrastructure\obj\Debug\net8.0\ref\Roomify.Infrastructure.dll
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Infrastructure\bin\Debug\net8.0\Roomify.Infrastructure.runtimeconfig.json
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.Infrastructure\obj\Debug\net8.0\Roomify.Infrastructure.genruntimeconfig.cache

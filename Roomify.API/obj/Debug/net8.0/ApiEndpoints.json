@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "Roomify.API.Controllers.UserController",
+    "Method": "Register",
+    "RelativePath": "api/User/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Roomify.Application.UseCases.UserCases.Commands.RegisterUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Roomify.Domain.Entities.Views.ResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Roomify.API.Controllers.UserController",
     "Method": "SendVerification",
     "RelativePath": "api/User/SendVerification",
     "HttpMethod": "POST",

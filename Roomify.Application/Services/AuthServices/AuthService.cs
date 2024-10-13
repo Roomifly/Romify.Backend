@@ -28,7 +28,13 @@ namespace Roomify.Application.Services.AuthServices
                 new Claim(JwtRegisteredClaimNames.Iat,EpochTime.GetIntDate(DateTime.UtcNow).ToString(CultureInfo.InvariantCulture),ClaimValueTypes.Integer64),
 
                 new Claim("Id",user.Id.ToString()),
-                new Claim("Email",user.Email)
+                new Claim("Email",user.Email),
+                new Claim("Role",user.Role.ToString()),
+                new Claim("FirstName",user.FirstName),
+                new Claim("LastName",user.LastName),
+                new Claim("GroupName",user.GroupName),
+                new Claim("StudentId",user.StudentId),
+                new Claim("PhoneNumber",user.PhoneNumber)
             };
 
             JwtSecurityToken token = new JwtSecurityToken(

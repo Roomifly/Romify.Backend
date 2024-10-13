@@ -61,18 +61,11 @@ namespace Roomify.Application.UseCases.UserCases.Handlers.CommandHandlers
 
                 string password = random.Next(100000, 999999).ToString();
 
-                string HTMLbody;
-
-                using (StreamReader stream = new StreamReader(_configuration["HTMLmessagePath"]))
-                {
-                    HTMLbody = (await stream.ReadToEndAsync()).Replace("verification-code", password);
-                }
-
                 ResponseModel response = await _emailService.SendEmailAsync(new EmailDTO
                 {
                     To = request.Email,
                     Subject = "Email verification!",
-                    Body = HTMLbody,
+                    Body = password,
                     IsBodyHTML = true
                 });
 
