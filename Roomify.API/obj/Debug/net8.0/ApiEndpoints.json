@@ -1,5 +1,77 @@
 [
   {
+    "ContainingType": "Roomify.API.Controllers.RoomController",
+    "Method": "Create",
+    "RelativePath": "api/Room/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Roomify.Application.UseCases.RoomCases.Commands.CreateRoomCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Roomify.Domain.Entities.Views.ResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Roomify.API.Controllers.RoomController",
+    "Method": "delete",
+    "RelativePath": "api/Room/delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Roomify.Application.UseCases.RoomCases.Commands.DeleteRoomCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Roomify.Domain.Entities.Views.ResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Roomify.API.Controllers.RoomController",
+    "Method": "GetAll",
+    "RelativePath": "api/Room/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Roomify.Domain.Entities.Models.PrimaryModels.Room, Roomify.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Roomify.API.Controllers.UserController",
     "Method": "Delete",
     "RelativePath": "api/User/Delete",
