@@ -27,5 +27,11 @@ namespace Roomify.API.Controllers
         {
             return await _mediator.Send(request);
         }
+
+        [HttpPost]
+        public async Task<ResponseModel> LogIn(LogUserInCommand request)
+        {
+            return await _mediator.Send(request);
+        }
     }
 }
