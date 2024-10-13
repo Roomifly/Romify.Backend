@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Roomify.Application.UseCases.UserCases.Commands;
+using Roomify.Application.UseCases.UserCases.Queries;
 using Roomify.Domain.Entities.Views;
 
 namespace Roomify.API.Controllers
@@ -14,6 +15,12 @@ namespace Roomify.API.Controllers
         public UserController(IMediator mediator)
         {
             _mediator = mediator;
+        }
+
+        [HttpGet]
+        public async Task<IEnumerable<UserView>> GetAll()
+        {
+            return await _mediator.Send(new GetAllUsersQuery());
         }
 
         [HttpPost]
@@ -30,6 +37,18 @@ namespace Roomify.API.Controllers
 
         [HttpPost]
         public async Task<ResponseModel> LogIn(LogUserInCommand request)
+        {
+            return await _mediator.Send(request);
+        }
+
+        [HttpPost]
+        public async Task<ResponseModel> ResetPassword(ResetUserPasswordCommand request)
+        {
+            return await _mediator.Send(request);
+        }
+
+        [HttpDelete]
+        public async Task<ResponseModel> Delete(DeleteUserCommand request)
         {
             return await _mediator.Send(request);
         }

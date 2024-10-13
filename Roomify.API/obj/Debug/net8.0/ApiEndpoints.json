@@ -1,6 +1,52 @@
 [
   {
     "ContainingType": "Roomify.API.Controllers.UserController",
+    "Method": "Delete",
+    "RelativePath": "api/User/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Roomify.Application.UseCases.UserCases.Commands.DeleteUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Roomify.Domain.Entities.Views.ResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Roomify.API.Controllers.UserController",
+    "Method": "GetAll",
+    "RelativePath": "api/User/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Roomify.Domain.Entities.Views.UserView, Roomify.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Roomify.API.Controllers.UserController",
     "Method": "LogIn",
     "RelativePath": "api/User/LogIn",
     "HttpMethod": "POST",
@@ -36,6 +82,32 @@
       {
         "Name": "request",
         "Type": "Roomify.Application.UseCases.UserCases.Commands.RegisterUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Roomify.Domain.Entities.Views.ResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Roomify.API.Controllers.UserController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/User/ResetPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Roomify.Application.UseCases.UserCases.Commands.ResetUserPasswordCommand",
         "IsRequired": true
       }
     ],

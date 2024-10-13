@@ -7,5 +7,6 @@ namespace Roomify.Application.UseCases.UserCases.Commands
     {
         public string Email { get; set; }
         public string SentPassword { get; set; }
+        public string NewPassword { get; set; }
     }
 }
