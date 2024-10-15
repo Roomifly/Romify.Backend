@@ -18,7 +18,7 @@ namespace Roomify.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<UserView>> GetAll()
+        public async Task<ResponseModel> GetAll()
         {
             return await _mediator.Send(new GetAllUsersQuery());
         }

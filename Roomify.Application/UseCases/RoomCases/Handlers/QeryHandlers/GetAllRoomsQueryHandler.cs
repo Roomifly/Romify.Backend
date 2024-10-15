@@ -3,10 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using Roomify.Application.Abstraction;
 using Roomify.Application.UseCases.RoomCases.Queries;
 using Roomify.Domain.Entities.Models.PrimaryModels;
+using Roomify.Domain.Entities.Views;
 
 namespace Roomify.Application.UseCases.RoomCases.Handlers.QeryHandlers
 {
-    public class GetAllRoomsQueryHandler : IRequestHandler<GetAllRoomsQuery, IEnumerable<Room>>
+    public class GetAllRoomsQueryHandler : IRequestHandler<GetAllRoomsQuery, ResponseModel>
     {
         private readonly IApplicationDbContext _applicationDbContext;
 
@@ -15,34 +16,28 @@ namespace Roomify.Application.UseCases.RoomCases.Handlers.QeryHandlers
             _applicationDbContext = applicationDbContext;
         }
 
-        public async Task<IEnumerable<Room>> Handle(GetAllRoomsQuery request, CancellationToken cancellationToken)
+        public async Task<ResponseModel> Handle(GetAllRoomsQuery request, CancellationToken cancellationToken)
         {
             try
             {
-                return await _applicationDbContext.Rooms.ToListAsync();
+                IEnumerable<Room> rooms = await _applicationDbContext.Rooms.ToListAsync();
+
+                return new ResponseModel
+                {
+                    IsSuccess = true,
+                    StatusCode = 200,
+                    Response = rooms
+                };
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message, ex);
+                return new ResponseModel
+                {
+                    IsSuccess = false,
+                    StatusCode = 500,
+                    Response = $"Something went wrong: {ex.Message}"
+                };
             }
         }
     }
 }
-
-/*
-        private readonly IApplicationDbContext _applicationDbContext;
-
-        public GetAllRoomsQueryHandler(IApplicationDbContext applicationDbContext)
-        {
-            _applicationDbContext = applicationDbContext;
-        }
-
-            try
-            {
-
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message, ex);
-            }
-*/

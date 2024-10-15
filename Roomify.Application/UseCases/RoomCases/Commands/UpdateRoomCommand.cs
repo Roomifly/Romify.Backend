@@ -7,7 +7,7 @@ namespace Roomify.Application.UseCases.RoomCases.Commands
     {
         public Guid UserId { get; set; }
         public Guid RoomId { get; set; }
-        public string? RoomNumber { get; set; }
+        public string? Number { get; set; }
         public byte? Floor { get; set; }
     }
 }

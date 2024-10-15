@@ -1,23 +1,23 @@
-﻿using MediatR;
+﻿using Mapster;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Roomify.Application.Abstraction;
-using Roomify.Application.UseCases.RoomCases.Commands;
-using Roomify.Domain.Entities.Enums;
+using Roomify.Application.UseCases.ReservetionCases.Commands;
 using Roomify.Domain.Entities.Models.PrimaryModels;
 using Roomify.Domain.Entities.Views;
 
-namespace Roomify.Application.UseCases.RoomCases.Handlers.CommandHandlers
+namespace Roomify.Application.UseCases.ReservetionCases.Handlers.CommandHandlers
 {
-    public class UpdateRoomCommandHandler : IRequestHandler<UpdateRoomCommand, ResponseModel>
+    public class ReserveRoomCommandHandler : IRequestHandler<ReserveRoomCommand, ResponseModel>
     {
         private readonly IApplicationDbContext _applicationDbContext;
 
-        public UpdateRoomCommandHandler(IApplicationDbContext applicationDbContext)
+        public ReserveRoomCommandHandler(IApplicationDbContext applicationDbContext)
         {
             _applicationDbContext = applicationDbContext;
         }
 
-        public async Task<ResponseModel> Handle(UpdateRoomCommand request, CancellationToken cancellationToken)
+        public async Task<ResponseModel> Handle(ReserveRoomCommand request, CancellationToken cancellationToken)
         {
             try
             {
@@ -33,16 +33,6 @@ namespace Roomify.Application.UseCases.RoomCases.Handlers.CommandHandlers
                     };
                 }
 
-                if (user.Role != Roles.SuperAdmin)
-                {
-                    return new ResponseModel
-                    {
-                        IsSuccess = false,
-                        StatusCode = 400,
-                        Response = "User is not SuperAdmin!"
-                    };
-                }
-
                 Room room = await _applicationDbContext.Rooms.FirstOrDefaultAsync(r => r.Id == request.RoomId);
 
                 if (room == null)
@@ -51,20 +41,19 @@ namespace Roomify.Application.UseCases.RoomCases.Handlers.CommandHandlers
                     {
                         IsSuccess = false,
                         StatusCode = 404,
-                        Response = "Room not found to update!"
+                        Response = "Room not found to reserve!"
                     };
                 }
 
-                room.Number = request.Number != null ? request.Number : room.Number;
-                room.Floor = request.Floor != null ? (byte)request.Floor : room.Floor;
+                Reservation reservation = await _applicationDbContext.Reservations.FirstOrDefaultAsync(r=>r.Room==room&&r.StartTime)
 
-                await _applicationDbContext.SaveChangesAsync(cancellationToken);
+
 
                 return new ResponseModel
                 {
                     IsSuccess = true,
                     StatusCode = 200,
-                    Response = "Room updated succefully!"
+                    Response = reservation
                 };
             }
             catch (Exception ex)

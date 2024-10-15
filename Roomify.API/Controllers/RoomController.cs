@@ -19,13 +19,19 @@ namespace Roomify.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Room>> GetAll()
+        public async Task<ResponseModel> GetAll()
         {
             return await _mediator.Send(new GetAllRoomsQuery());
         }
 
         [HttpPost]
         public async Task<ResponseModel> Create(CreateRoomCommand request)
+        {
+            return await _mediator.Send(request);
+        }
+
+        [HttpPut]
+        public async Task<ResponseModel> Update(UpdateRoomCommand request)
         {
             return await _mediator.Send(request);
         }

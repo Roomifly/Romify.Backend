@@ -1,9 +1,9 @@
 ﻿using MediatR;
-using Roomify.Domain.Entities.Models.PrimaryModels;
+using Roomify.Domain.Entities.Views;
 
 namespace Roomify.Application.UseCases.RoomCases.Queries
 {
-    public class GetAllRoomsQuery:IRequest<IEnumerable<Room>>
+    public class GetAllRoomsQuery:IRequest<ResponseModel>
     {
     }
 }

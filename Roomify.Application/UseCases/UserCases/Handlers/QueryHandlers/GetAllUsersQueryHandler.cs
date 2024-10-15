@@ -8,7 +8,7 @@ using Roomify.Domain.Entities.Views;
 
 namespace Roomify.Application.UseCases.UserCases.Handlers.QueryHandlers
 {
-    public class GetAllUsersQueryHandler : IRequestHandler<GetAllUsersQuery, IEnumerable<UserView>>
+    public class GetAllUsersQueryHandler : IRequestHandler<GetAllUsersQuery, ResponseModel>
     {
         private readonly IApplicationDbContext _applicationDbContext;
 
@@ -17,7 +17,7 @@ namespace Roomify.Application.UseCases.UserCases.Handlers.QueryHandlers
             _applicationDbContext = applicationDbContext;
         }
 
-        public async Task<IEnumerable<UserView>> Handle(GetAllUsersQuery request, CancellationToken cancellationToken)
+        public async Task<ResponseModel> Handle(GetAllUsersQuery request, CancellationToken cancellationToken)
         {
             try
             {
@@ -29,11 +29,21 @@ namespace Roomify.Application.UseCases.UserCases.Handlers.QueryHandlers
                     userViews.Add(user.Adapt<UserView>());
                 }
 
-                return userViews;
+                return new ResponseModel
+                {
+                    IsSuccess = true,
+                    StatusCode = 200,
+                    Response = userViews
+                };
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message, ex);
+                return new ResponseModel
+                {
+                    IsSuccess = false,
+                    StatusCode = 500,
+                    Response = $"Something went wrong: {ex.Message}"
+                };
             }
         }
     }

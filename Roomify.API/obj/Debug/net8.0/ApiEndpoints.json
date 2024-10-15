@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "Roomify.API.Controllers.ReservationController",
+    "Method": "Reserve",
+    "RelativePath": "api/Reservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Roomify.Application.UseCases.ReservetionCases.Commands.ReserveRoomCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Roomify.Domain.Entities.Views.ResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Roomify.API.Controllers.RoomController",
     "Method": "Create",
     "RelativePath": "api/Room/Create",
@@ -61,7 +87,33 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Roomify.Domain.Entities.Models.PrimaryModels.Room, Roomify.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Roomify.Domain.Entities.Views.ResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Roomify.API.Controllers.RoomController",
+    "Method": "Update",
+    "RelativePath": "api/Room/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Roomify.Application.UseCases.RoomCases.Commands.UpdateRoomCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Roomify.Domain.Entities.Views.ResponseModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -107,7 +159,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Roomify.Domain.Entities.Views.UserView, Roomify.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Roomify.Domain.Entities.Views.ResponseModel",
         "MediaTypes": [
           "text/plain",
           "application/json",

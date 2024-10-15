@@ -20,4 +20,9 @@
     <ProjectReference Include="..\Roomify.Domain\Roomify.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UseCases\ReservetionCases\Handlers\QueryHandlers\" />
+    <Folder Include="UseCases\ReservetionCases\Queries\" />
+  </ItemGroup>
+
 </Project>

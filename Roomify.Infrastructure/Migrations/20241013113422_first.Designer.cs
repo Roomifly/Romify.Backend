@@ -12,8 +12,8 @@ using Roomify.Infrastructure.Persistance;
 namespace Roomify.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241013092807_seedData")]
-    partial class seedData
+    [Migration("20241013113422_first")]
+    partial class first
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -64,7 +64,7 @@ namespace Roomify.Infrastructure.Migrations
                     b.Property<byte>("Floor")
                         .HasColumnType("smallint");
 
-                    b.Property<string>("RoomNumber")
+                    b.Property<string>("Number")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -121,7 +121,7 @@ namespace Roomify.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("8f93a1e7-9295-49b2-b058-fd6b2ab74c12"),
+                            Id = new Guid("7bce8c49-009c-44f7-8729-a24b401a4ab5"),
                             Email = "abdukholiq0907@gmail.com",
                             FirstName = "Adminaka",
                             GroupName = "DotNet N11",
