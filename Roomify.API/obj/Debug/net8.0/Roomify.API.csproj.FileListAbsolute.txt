@@ -120,3 +120,5 @@ C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.API\obj\Debug\net8.0\Roomif
 C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.API\obj\Debug\net8.0\ref\Roomify.API.dll
 C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.API\bin\Debug\net8.0\Mapster.dll
 C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.API\bin\Debug\net8.0\Mapster.Core.dll
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.API\bin\Debug\net8.0\Roomify.API.staticwebassets.runtime.json
+C:\Users\Hp\Desktop\Important\Romify.Backend\Roomify.API\bin\Debug\net8.0\Telegram.Bot.dll

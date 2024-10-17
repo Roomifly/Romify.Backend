@@ -1,6 +1,8 @@
 ﻿using Mapster;
 using MediatR;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Roomify.Application.Abstraction;
 using Roomify.Application.UseCases.RoomCases.Commands;
 using Roomify.Domain.Entities.Enums;
@@ -12,10 +14,14 @@ namespace Roomify.Application.UseCases.RoomCases.Handlers.CommandHandlers
     public class CreateRoomCommandHandler : IRequestHandler<CreateRoomCommand, ResponseModel>
     {
         private readonly IApplicationDbContext _applicationDbContext;
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IConfiguration _configuration;
 
-        public CreateRoomCommandHandler(IApplicationDbContext applicationDbContext)
+        public CreateRoomCommandHandler(IApplicationDbContext applicationDbContext, IWebHostEnvironment webHostEnvironment, IConfiguration configuration)
         {
             _applicationDbContext = applicationDbContext;
+            _webHostEnvironment = webHostEnvironment;
+            _configuration = configuration;
         }
 
         public async Task<ResponseModel> Handle(CreateRoomCommand request, CancellationToken cancellationToken)
@@ -34,7 +40,7 @@ namespace Roomify.Application.UseCases.RoomCases.Handlers.CommandHandlers
                     };
                 }
 
-                if(user.Role!=Roles.SuperAdmin)
+                if (user.Role != Roles.SuperAdmin)
                 {
                     return new ResponseModel
                     {
@@ -44,7 +50,18 @@ namespace Roomify.Application.UseCases.RoomCases.Handlers.CommandHandlers
                     };
                 }
 
+                string imagePath = $"roomImages/{Guid.NewGuid()}_{request.Image.FileName}";
+                string path = $"{_webHostEnvironment.WebRootPath}/{imagePath}";
+                string url = $"{_configuration.GetValue<string>("DNS")!}{imagePath}";
+
+                using (FileStream strem = new FileStream(path, FileMode.Create))
+                {
+                    await request.Image.CopyToAsync(strem);
+                }
+
                 Room room = request.Adapt<Room>();
+
+                room.ImageURL = url;
 
                 await _applicationDbContext.Rooms.AddAsync(room);
                 await _applicationDbContext.SaveChangesAsync(cancellationToken);

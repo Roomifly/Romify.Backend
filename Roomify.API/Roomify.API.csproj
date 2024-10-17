@@ -18,4 +18,8 @@
     <ProjectReference Include="..\Roomify.Infrastructure\Roomify.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\roomImages\" />
+  </ItemGroup>
+
 </Project>

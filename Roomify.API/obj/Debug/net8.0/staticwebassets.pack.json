@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutEmailVerification.html",
+      "PackagePath": "staticwebassets\\HTMLMessages\\MessageAboutEmailVerification.html"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutReservation.html",
+      "PackagePath": "staticwebassets\\HTMLMessages\\MessageAboutReservation.html"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\roomImages\\118de454-4a84-4bc0-83ff-caa0693418cd_Adventure (1).jpg",
+      "PackagePath": "staticwebassets\\roomImages\\118de454-4a84-4bc0-83ff-caa0693418cd_Adventure (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\roomImages\\36fabd55-c41e-4f26-ad1a-7c772b4fffa4_Adventure (1).jpg",
+      "PackagePath": "staticwebassets\\roomImages\\36fabd55-c41e-4f26-ad1a-7c772b4fffa4_Adventure (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\roomImages\\70a2736a-86be-40aa-83a6-e76f3bc8c8baAdventure (1).jpg",
+      "PackagePath": "staticwebassets\\roomImages\\70a2736a-86be-40aa-83a6-e76f3bc8c8baAdventure (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\roomImages\\873b6835-eb0c-4102-af11-0aefa6244910_Adventure (1).jpg",
+      "PackagePath": "staticwebassets\\roomImages\\873b6835-eb0c-4102-af11-0aefa6244910_Adventure (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\roomImages\\8e01a2aa-576b-4de1-88be-c51e59043cadphoto_2023-11-09_07-56-43.jpg",
+      "PackagePath": "staticwebassets\\roomImages\\8e01a2aa-576b-4de1-88be-c51e59043cadphoto_2023-11-09_07-56-43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\roomImages\\a1074384-1d48-4e4e-8dfb-2b1ac156bd06dotnet.webp",
+      "PackagePath": "staticwebassets\\roomImages\\a1074384-1d48-4e4e-8dfb-2b1ac156bd06dotnet.webp"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\roomImages\\ab4a8721-4c12-45d9-ba0b-efa9728f5253_Adventure (1).jpg",
+      "PackagePath": "staticwebassets\\roomImages\\ab4a8721-4c12-45d9-ba0b-efa9728f5253_Adventure (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\roomImages\\e9afdf15-dd4c-4fdd-86bc-6cea4775c60a_photo_2023-06-21_11-11-14.jpg",
+      "PackagePath": "staticwebassets\\roomImages\\e9afdf15-dd4c-4fdd-86bc-6cea4775c60a_photo_2023-06-21_11-11-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\roomImages\\ecf76a5e-1fbf-4a71-8d6b-37f6b67b2e86dotnet.webp",
+      "PackagePath": "staticwebassets\\roomImages\\ecf76a5e-1fbf-4a71-8d6b-37f6b67b2e86dotnet.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Roomify.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Roomify.API.props",
+      "PackagePath": "build\\Roomify.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Roomify.API.props",
+      "PackagePath": "buildMultiTargeting\\Roomify.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Roomify.API.props",
+      "PackagePath": "buildTransitive\\Roomify.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

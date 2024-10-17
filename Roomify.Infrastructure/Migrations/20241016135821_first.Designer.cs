@@ -12,7 +12,7 @@ using Roomify.Infrastructure.Persistance;
 namespace Roomify.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241013113422_first")]
+    [Migration("20241016135821_first")]
     partial class first
     {
         /// <inheritdoc />
@@ -30,6 +30,9 @@ namespace Roomify.Infrastructure.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
+
+                    b.Property<DateOnly>("Date")
+                        .HasColumnType("date");
 
                     b.Property<int>("Day")
                         .HasColumnType("integer");
@@ -63,6 +66,10 @@ namespace Roomify.Infrastructure.Migrations
 
                     b.Property<byte>("Floor")
                         .HasColumnType("smallint");
+
+                    b.Property<string>("ImageURL")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Number")
                         .IsRequired()
@@ -121,7 +128,7 @@ namespace Roomify.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("7bce8c49-009c-44f7-8729-a24b401a4ab5"),
+                            Id = new Guid("dbb203a2-5cb5-4736-8c28-da8763ef31b9"),
                             Email = "abdukholiq0907@gmail.com",
                             FirstName = "Adminaka",
                             GroupName = "DotNet N11",

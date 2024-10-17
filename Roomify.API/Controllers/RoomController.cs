@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Roomify.Application.UseCases.RoomCases.Commands;
 using Roomify.Application.UseCases.RoomCases.Queries;
-using Roomify.Domain.Entities.Models.PrimaryModels;
 using Roomify.Domain.Entities.Views;
 
 namespace Roomify.API.Controllers

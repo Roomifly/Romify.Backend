@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Roomify.Application.Abstraction;
@@ -16,12 +17,14 @@ namespace Roomify.Application.UseCases.UserCases.Handlers.CommandHandlers
         private readonly IApplicationDbContext _applicationDbContext;
         private readonly IEmailService _emailService;
         private readonly IConfiguration _configuration;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public SendVerificationToUserCommandHandler(IApplicationDbContext applicationDbContext, IEmailService sendEmailService, IConfiguration configuration)
+        public SendVerificationToUserCommandHandler(IApplicationDbContext applicationDbContext, IEmailService sendEmailService, IConfiguration configuration, IWebHostEnvironment webHostEnvironment)
         {
             _applicationDbContext = applicationDbContext;
             _emailService = sendEmailService;
             _configuration = configuration;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public async Task<ResponseModel> Handle(SendVerificationToUserCommand request, CancellationToken cancellationToken)
@@ -45,7 +48,7 @@ namespace Roomify.Application.UseCases.UserCases.Handlers.CommandHandlers
                     {
                         IsSuccess = false,
                         StatusCode = 404,
-                        Response = "Email not resgistered yet!!"
+                        Response = "Email not resgistered yet!"
                     };
                 }
 
@@ -60,12 +63,20 @@ namespace Roomify.Application.UseCases.UserCases.Handlers.CommandHandlers
                 Random random = new Random();
 
                 string password = random.Next(100000, 999999).ToString();
+                string HTMLbody;
+
+                using (StreamReader stream = new StreamReader($"{_webHostEnvironment.WebRootPath}/HTMLMessages/MessageAboutEmailVerification.html"))
+                {
+                    HTMLbody = (await stream.ReadToEndAsync());
+                }
+
+                HTMLbody = HTMLbody.Replace("Code", password);
 
                 ResponseModel response = await _emailService.SendEmailAsync(new EmailDTO
                 {
                     To = request.Email,
                     Subject = "Email verification!",
-                    Body = password,
+                    Body = HTMLbody,
                     IsBodyHTML = true
                 });
 

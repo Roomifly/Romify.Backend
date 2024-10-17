@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roomify Reservation</title>
+</head>
+<style>
+    * {
+        margin: 0;
+    }
+
+    .main {
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgb(240, 255, 240);
+    }
+
+    .content-handler {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text {
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    .room-img {
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    @media (max-width: 10000px) {
+        .room-img {
+            width: 60vw;
+            height: 25vw;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .room-img {
+            width: 100vw;
+            height: 65vw;
+        }
+    }
+</style>
+
+<body>
+    <div class="main">
+
+        <div style="height: 50px;"></div>
+
+        <div class="content-handler">
+            <h1 class="text"><span style="color: blue;">RoomNumber</span> - xonasi siz uchun muntazir!</h1>
+        </div>
+
+        <div style="height: 15px"></div>
+
+        <div class="content-handler">
+            <h2 class="text">floor - qavat</h2>
+        </div>
+
+        <div style="height: 25px;"></div>
+
+        <div class="content-handler">
+            <h2 class="text">startTime - finishTime</h2>
+        </div>
+
+        <div style="height: 20px;"></div>
+
+        <div class="content-handler">
+            <h3 class="text">dayOfWeek</h3>
+        </div>
+
+        <div style="height: 20px;"></div>
+
+        <div class="content-handler">
+            <h3 class="text">date</h3>
+        </div>
+
+        <div style="height: 50px;"></div>
+
+        <div class="content-handler">
+            <h2 class="text">Sizga maroqli dars qilishingizni tilaymiz!</h2>
+        </div>
+
+        <div style="height: 50px;"></div>
+
+        <div class="content-handler">
+            <img class="room-img"
+                src="room.img"
+                alt="xona rasmi">
+        </div>
+
+        <div style="height: 50px;"></div>
+
+    </div>
+</body>
+
+</html>
