@@ -23,6 +23,13 @@ namespace Roomify.API.Controllers
             return await _mediator.Send(new GetAllUsersQuery());
         }
 
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<ResponseModel> GetById(Guid id)
+        {
+            return await _mediator.Send(new GetUserByIdQuery { Id = id });
+        }
+
         [HttpPost]
         public async Task<ResponseModel> SendVerification(SendVerificationToUserCommand request)
         {

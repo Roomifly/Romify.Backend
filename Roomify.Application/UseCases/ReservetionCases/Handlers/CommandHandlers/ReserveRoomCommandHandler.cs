@@ -72,7 +72,7 @@ namespace Roomify.Application.UseCases.ReservetionCases.Handlers.CommandHandlers
                     };
                 }
 
-                Reservation reservation = await _applicationDbContext.Reservations.FirstOrDefaultAsync(r =>r.Room==room && r.StartTime < finishTime && r.FinishTime > startTime && r.Day == request.Day ? r.Date == date : false);
+                Reservation reservation = await _applicationDbContext.Reservations.FirstOrDefaultAsync(r => r.Room == room && r.StartTime < finishTime && r.FinishTime > startTime && r.Day == request.Day ? r.Date == date : false);
 
                 if (reservation != null)
                 {
@@ -84,8 +84,18 @@ namespace Roomify.Application.UseCases.ReservetionCases.Handlers.CommandHandlers
                     };
                 }
 
+                IEnumerable<int> reserveIds = await _applicationDbContext.Reservations.Select(r => r.ReserveId).ToListAsync();
+
                 reservation = request.Adapt<Reservation>();
-                reservation.Date=date;
+                reservation.Date = date;
+
+                Random random = new Random();
+
+                do
+                {
+                    reservation.ReserveId = random.Next(1000, 10000);
+                }
+                while (reserveIds.Contains(reservation.ReserveId));
 
                 await _applicationDbContext.Reservations.AddAsync(reservation);
                 await _applicationDbContext.SaveChangesAsync(cancellationToken);
@@ -97,15 +107,16 @@ namespace Roomify.Application.UseCases.ReservetionCases.Handlers.CommandHandlers
                     HTMLbody = (await stream.ReadToEndAsync());
                 }
 
-                HTMLbody=HTMLbody.Replace("RoomNumber", room.Number);
-                HTMLbody=HTMLbody.Replace("floor", room.Floor.ToString());
-                HTMLbody=HTMLbody.Replace("startTime", reservation.StartTime.ToString());
-                HTMLbody=HTMLbody.Replace("finishTime", reservation.FinishTime.ToString());
-                HTMLbody=HTMLbody.Replace("dayOfWeek", reservation.Day.ToString());
-                HTMLbody=HTMLbody.Replace("date", reservation.Date.ToString());
-                HTMLbody=HTMLbody.Replace("room.img", room.ImageURL);
+                HTMLbody = HTMLbody.Replace("RoomNumber", room.Number);
+                HTMLbody = HTMLbody.Replace("reserveId", reservation.ReserveId.ToString());
+                HTMLbody = HTMLbody.Replace("floor", room.Floor.ToString());
+                HTMLbody = HTMLbody.Replace("startTime", reservation.StartTime.ToString());
+                HTMLbody = HTMLbody.Replace("finishTime", reservation.FinishTime.ToString());
+                HTMLbody = HTMLbody.Replace("dayOfWeek", reservation.Day.ToString());
+                HTMLbody = HTMLbody.Replace("date", reservation.Date.ToString());
+                HTMLbody = HTMLbody.Replace("room.img", room.ImageURL);
 
-                ResponseModel response= await _emailService.SendEmailAsync(new EmailDTO
+                ResponseModel response = await _emailService.SendEmailAsync(new EmailDTO
                 {
                     To = user.Email,
                     Subject = "Reservation Info",
@@ -118,20 +129,27 @@ namespace Roomify.Application.UseCases.ReservetionCases.Handlers.CommandHandlers
                     return response;
                 }
 
-                long adminChatId = _configuration.GetSection("TelegramChatIds").GetValue<long>("Admin");
-                string text = $"{room.Number} - xonasi ({room.Floor} - qavat)\n\n" +
-                                 $"{reservation.Date} - sanasida\n" +
-                                 $"{reservation.Day} - kunida\n" +
-                                 $"{reservation.StartTime} - {reservation.FinishTime} vaqt oralig'ida\n\n" +
-                                 $"{user.FirstName} {user.LastName} tomonidan\n" +
-                                 $"({user.StudentId} - student id)\n\n" +
-                                 $"BAND QILINDI!";
+                string text = $"Band qilish Idsi: {reservation.ReserveId}\n\n" +
+                              $"{room.Number} - xonasi ({room.Floor} - qavat)\n\n" +
+                              $"{reservation.Date} - sanasida\n" +
+                              $"{reservation.Day} - kunida\n" +
+                              $"{reservation.StartTime} - {reservation.FinishTime} vaqt oralig'ida\n\n" +
+                              $"{user.FullName} tomonidan\n" +
+                              $"({user.StudentId} - student id)\n\n" +
+                              $"Tasnif: {reservation.Description}\n\n" +
+                              $"BAND QILINDI!";
 
-                try
+                List<long> telegramChatIds = await _applicationDbContext.TelegramChatIds.Select(t => t.ChatId).ToListAsync();
+                telegramChatIds.Add(_configuration.GetSection("TelegramChatIds").GetValue<long>("Admin"));
+
+                foreach (long id in telegramChatIds)
                 {
-                    await _telegramBotClient.SendTextMessageAsync(adminChatId, text);
+                    try
+                    {
+                        await _telegramBotClient.SendTextMessageAsync(id, text);
+                    }
+                    catch { }
                 }
-                catch(Exception ex) { }
 
                 return new ResponseModel
                 {

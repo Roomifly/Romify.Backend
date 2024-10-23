@@ -3,60 +3,172 @@
   "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\usercases\\handlers\\commandhandlers\\sendverificationtousercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\usercases\\handlers\\commandhandlers\\sendverificationtousercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\wwwroot\\htmlmessages\\messageaboutreservation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\wwwroot\\htmlmessages\\messageaboutreservation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\handlers\\commandhandlers\\reserveroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\handlers\\commandhandlers\\reserveroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E6DCFE0-BFC8-4FFE-B36C-834817E42731}|Roomify.Infrastructure\\Roomify.Infrastructure.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.infrastructure\\migrations\\20241023040105_fourth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6DCFE0-BFC8-4FFE-B36C-834817E42731}|Roomify.Infrastructure\\Roomify.Infrastructure.csproj|solutionrelative:roomify.infrastructure\\migrations\\20241023040105_fourth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6E6DCFE0-BFC8-4FFE-B36C-834817E42731}|Roomify.Infrastructure\\Roomify.Infrastructure.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6DCFE0-BFC8-4FFE-B36C-834817E42731}|Roomify.Infrastructure\\Roomify.Infrastructure.csproj|solutionrelative:roomify.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\wwwroot\\htmlmessages\\messageaboutemailverification.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\wwwroot\\htmlmessages\\messageaboutemailverification.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\usercases\\handlers\\queryhandlers\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\usercases\\handlers\\queryhandlers\\getuserbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\handlers\\queryhandlers\\getavailableroomsbydatetimequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\handlers\\queryhandlers\\getavailableroomsbydatetimequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\usercases\\queries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\usercases\\queries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\controllers\\telegramchatidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\controllers\\telegramchatidcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\telegramchatidcases\\queries\\getalltelegramchatidsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\telegramchatidcases\\queries\\getalltelegramchatidsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\telegramchatidcases\\handlers\\queryhandlers\\getalltelegramchatidsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\telegramchatidcases\\handlers\\queryhandlers\\getalltelegramchatidsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\telegramchatidcases\\commands\\createtelegramchatidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\telegramchatidcases\\commands\\createtelegramchatidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\telegramchatidcases\\commands\\deletetelegramchatidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\telegramchatidcases\\commands\\deletetelegramchatidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\telegramchatidcases\\handlers\\commandhandlers\\createtelegramchatidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\telegramchatidcases\\handlers\\commandhandlers\\createtelegramchatidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\telegramchatidcases\\handlers\\commandhandlers\\deletetelegramchatidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\telegramchatidcases\\handlers\\commandhandlers\\deletetelegramchatidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\handlers\\commandhandlers\\reserveroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\handlers\\commandhandlers\\reserveroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\commands\\reserveroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\commands\\reserveroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\commands\\cancelreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\commands\\cancelreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\queries\\getavailableroomsbydatetimequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\queries\\getavailableroomsbydatetimequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\queries\\getreservationsbyroomidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\queries\\getreservationsbyroomidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\handlers\\queryhandlers\\getavailableroomsbydatetimequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\handlers\\queryhandlers\\getavailableroomsbydatetimequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\handlers\\queryhandlers\\getreservationsbyroomidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\handlers\\queryhandlers\\getreservationsbyroomidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\models\\primarymodels\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\models\\primarymodels\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\models\\secondarymodels\\verification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\models\\secondarymodels\\verification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\models\\secondarymodels\\telegramchatid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\models\\secondarymodels\\telegramchatid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\views\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\views\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\views\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\views\\userview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6DCFE0-BFC8-4FFE-B36C-834817E42731}|Roomify.Infrastructure\\Roomify.Infrastructure.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.infrastructure\\persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6DCFE0-BFC8-4FFE-B36C-834817E42731}|Roomify.Infrastructure\\Roomify.Infrastructure.csproj|solutionrelative:roomify.infrastructure\\persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\abstraction\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\abstraction\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6DCFE0-BFC8-4FFE-B36C-834817E42731}|Roomify.Infrastructure\\Roomify.Infrastructure.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.infrastructure\\migrations\\20241023013610_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6DCFE0-BFC8-4FFE-B36C-834817E42731}|Roomify.Infrastructure\\Roomify.Infrastructure.csproj|solutionrelative:roomify.infrastructure\\migrations\\20241023013610_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\Migrations\\20241023012741_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Roomify.Infrastructure\\Migrations\\20241023012741_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\handlers\\commandhandlers\\cancelreservationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\handlers\\commandhandlers\\cancelreservationcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\commands\\cancelreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\commands\\cancelreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\models\\primarymodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\models\\primarymodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\models\\primarymodels\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\models\\primarymodels\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\usercases\\handlers\\commandhandlers\\loguserincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\usercases\\handlers\\commandhandlers\\loguserincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\services\\authservices\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\usercases\\handlers\\commandhandlers\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\usercases\\handlers\\commandhandlers\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\enums\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\usercases\\handlers\\commandhandlers\\sendverificationtousercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\usercases\\handlers\\commandhandlers\\sendverificationtousercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\wwwroot\\htmlmessages\\messageaboutemailverification.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\wwwroot\\htmlmessages\\messageaboutemailverification.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\roomcases\\handlers\\commandhandlers\\updateroomcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,14 +191,6 @@
       "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\roomcases\\commands\\createroomcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\reservetioncases\\queries\\getreservationsbyroomidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\reservetioncases\\queries\\getreservationsbyroomidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\wwwroot\\htmlmessages\\messageaboutreservation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\wwwroot\\htmlmessages\\messageaboutreservation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.api\\roomify.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{C5E84A0F-EFC7-4A8C-8391-2F0CEE6DA243}|Roomify.API\\Roomify.API.csproj|solutionrelative:roomify.api\\roomify.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -99,20 +203,8 @@
       "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\usecases\\usercases\\handlers\\queryhandlers\\getallusersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\models\\primarymodels\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\models\\primarymodels\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\models\\primarymodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\models\\primarymodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\roomify.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|solutionrelative:roomify.application\\roomify.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.domain\\entities\\models\\primarymodels\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD5703B2-5649-43F0-BCE8-2D0699F2D065}|Roomify.Domain\\Roomify.Domain.csproj|solutionrelative:roomify.domain\\entities\\models\\primarymodels\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D39415EB-3239-4965-BE37-69189F122056}|Roomify.Application\\Roomify.Application.csproj|c:\\users\\hp\\desktop\\important\\romify.backend\\roomify.application\\usecases\\roomcases\\handlers\\qeryhandlers\\getallroomsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -130,15 +222,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -154,165 +242,215 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SendVerificationToUserCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\SendVerificationToUserCommandHandler.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\SendVerificationToUserCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\SendVerificationToUserCommandHandler.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\SendVerificationToUserCommandHandler.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAtwDcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:50:21.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Controllers\\ReservationController.cs",
-              "RelativeDocumentMoniker": "Roomify.API\\Controllers\\ReservationController.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Controllers\\ReservationController.cs",
-              "RelativeToolTip": "Roomify.API\\Controllers\\ReservationController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAvwCoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T04:23:31.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReserveRoomCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Commands\\ReserveRoomCommand.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Commands\\ReserveRoomCommand.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Commands\\ReserveRoomCommand.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Commands\\ReserveRoomCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:18:16.378Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReserveRoomCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\ReserveRoomCommandHandler.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\ReserveRoomCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\ReserveRoomCommandHandler.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\ReserveRoomCommandHandler.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAEwFwAAAAQAAAAAAAAAA==",
+              "Title": "20241023040105_fourth.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\Migrations\\20241023040105_fourth.cs",
+              "RelativeDocumentMoniker": "Roomify.Infrastructure\\Migrations\\20241023040105_fourth.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\Migrations\\20241023040105_fourth.cs",
+              "RelativeToolTip": "Roomify.Infrastructure\\Migrations\\20241023040105_fourth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T03:12:18.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Program.cs",
-              "RelativeDocumentMoniker": "Roomify.API\\Program.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Program.cs",
-              "RelativeToolTip": "Roomify.API\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T03:34:51.507Z",
+              "WhenOpened": "2024-10-23T04:01:06.29Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MessageAboutEmailVerification.html",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutEmailVerification.html",
-              "RelativeDocumentMoniker": "Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutEmailVerification.html",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutEmailVerification.html",
-              "RelativeToolTip": "Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutEmailVerification.html",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-17T10:39:38.833Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Roomify.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\appsettings.json",
-              "RelativeToolTip": "Roomify.API\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-16T03:25:28.707Z"
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Roomify.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Roomify.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T04:00:42.935Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "MessageAboutReservation.html",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutReservation.html",
+              "RelativeDocumentMoniker": "Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutReservation.html",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutReservation.html",
+              "RelativeToolTip": "Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutReservation.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-16T18:59:26.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Roomify.API\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Controllers\\UserController.cs",
               "RelativeToolTip": "Roomify.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T10:09:50.567Z"
+              "WhenOpened": "2024-10-17T10:09:50.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetUserByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\QueryHandlers\\GetUserByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\UserCases\\Handlers\\QueryHandlers\\GetUserByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\QueryHandlers\\GetUserByIdQueryHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\UserCases\\Handlers\\QueryHandlers\\GetUserByIdQueryHandler.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA3wBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:57:56.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GetAvailableRoomsByDateTimeQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetAvailableRoomsByDateTimeQueryHandler.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetAvailableRoomsByDateTimeQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetAvailableRoomsByDateTimeQueryHandler.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetAvailableRoomsByDateTimeQueryHandler.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAvwBoAAAAtAAAAAAAAAA==",
+              "Title": "GetUserByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Queries\\GetUserByIdQuery.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\UserCases\\Queries\\GetUserByIdQuery.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Queries\\GetUserByIdQuery.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\UserCases\\Queries\\GetUserByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:00:46.529Z"
+              "WhenOpened": "2024-10-23T03:57:49.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "TelegramChatIdController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Controllers\\TelegramChatIdController.cs",
+              "RelativeDocumentMoniker": "Roomify.API\\Controllers\\TelegramChatIdController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Controllers\\TelegramChatIdController.cs",
+              "RelativeToolTip": "Roomify.API\\Controllers\\TelegramChatIdController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:52:45.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAllTelegramChatIdsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\QueryHandlers\\GetAllTelegramChatIdsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\QueryHandlers\\GetAllTelegramChatIdsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\QueryHandlers\\GetAllTelegramChatIdsQueryHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\QueryHandlers\\GetAllTelegramChatIdsQueryHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:14:33.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateTelegramChatIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Commands\\CreateTelegramChatIdCommand.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Commands\\CreateTelegramChatIdCommand.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Commands\\CreateTelegramChatIdCommand.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Commands\\CreateTelegramChatIdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:09:37.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "RoomController.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Controllers\\RoomController.cs",
               "RelativeDocumentMoniker": "Roomify.API\\Controllers\\RoomController.cs",
               "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Controllers\\RoomController.cs",
               "RelativeToolTip": "Roomify.API\\Controllers\\RoomController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAIA+wBwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T03:32:52.067Z"
+              "WhenOpened": "2024-10-16T03:32:52.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetAvailableRoomsByDateTimeQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Queries\\GetAvailableRoomsByDateTimeQuery.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Queries\\GetAvailableRoomsByDateTimeQuery.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Queries\\GetAvailableRoomsByDateTimeQuery.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Queries\\GetAvailableRoomsByDateTimeQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "GetAllTelegramChatIdsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Queries\\GetAllTelegramChatIdsQuery.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Queries\\GetAllTelegramChatIdsQuery.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Queries\\GetAllTelegramChatIdsQuery.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Queries\\GetAllTelegramChatIdsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:00:38.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetReservationsByRoomIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetReservationsByRoomIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetReservationsByRoomIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetReservationsByRoomIdQueryHandler.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetReservationsByRoomIdQueryHandler.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wCkAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T03:24:01.477Z"
+              "WhenOpened": "2024-10-23T03:14:26.034Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "CancelReservationCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\CancelReservationCommandHandler.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\CancelReservationCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\CancelReservationCommandHandler.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\CancelReservationCommandHandler.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBYAAAB+AAAAAAAAAA==",
+              "Title": "CreateTelegramChatIdCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\CommandHandlers\\CreateTelegramChatIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\CommandHandlers\\CreateTelegramChatIdCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\CommandHandlers\\CreateTelegramChatIdCommandHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\CommandHandlers\\CreateTelegramChatIdCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T03:31:51.081Z"
+              "WhenOpened": "2024-10-23T03:09:56.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "DeleteTelegramChatIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\CommandHandlers\\DeleteTelegramChatIdCommand.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\CommandHandlers\\DeleteTelegramChatIdCommand.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\CommandHandlers\\DeleteTelegramChatIdCommand.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Handlers\\CommandHandlers\\DeleteTelegramChatIdCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBgAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:13:50.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteTelegramChatIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Commands\\DeleteTelegramChatIdCommand.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Commands\\DeleteTelegramChatIdCommand.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\TelegramChatIdCases\\Commands\\DeleteTelegramChatIdCommand.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\TelegramChatIdCases\\Commands\\DeleteTelegramChatIdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:10:49.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReserveRoomCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\ReserveRoomCommandHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\ReserveRoomCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\ReserveRoomCommandHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\ReserveRoomCommandHandler.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAgwJQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T03:12:18.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReserveRoomCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Commands\\ReserveRoomCommand.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Commands\\ReserveRoomCommand.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Commands\\ReserveRoomCommand.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Commands\\ReserveRoomCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T15:18:16.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "CancelReservationCommand.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Commands\\CancelReservationCommand.cs",
               "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Commands\\CancelReservationCommand.cs",
@@ -320,67 +458,34 @@
               "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Commands\\CancelReservationCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T03:31:42.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UpdateRoomCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\UpdateRoomCommandHandler.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\UpdateRoomCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\UpdateRoomCommandHandler.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\UpdateRoomCommandHandler.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T03:37:17.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CreateRoomCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\CreateRoomCommandHandler.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\CreateRoomCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\CreateRoomCommandHandler.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\CreateRoomCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T03:37:15.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DeleteRoomCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\DeleteRoomCommandHandler.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\DeleteRoomCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\DeleteRoomCommandHandler.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\DeleteRoomCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T03:37:16.827Z"
+              "WhenOpened": "2024-10-17T03:31:42.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "UpdateRoomCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Commands\\UpdateRoomCommand.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Commands\\UpdateRoomCommand.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Commands\\UpdateRoomCommand.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\RoomCases\\Commands\\UpdateRoomCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Program.cs",
+              "RelativeDocumentMoniker": "Roomify.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Program.cs",
+              "RelativeToolTip": "Roomify.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T07:13:52.131Z"
+              "WhenOpened": "2024-10-16T03:34:51.507Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "CreateRoomCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Commands\\CreateRoomCommand.cs",
-              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Commands\\CreateRoomCommand.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Commands\\CreateRoomCommand.cs",
-              "RelativeToolTip": "Roomify.Application\\UseCases\\RoomCases\\Commands\\CreateRoomCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Title": "GetAvailableRoomsByDateTimeQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Queries\\GetAvailableRoomsByDateTimeQuery.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Queries\\GetAvailableRoomsByDateTimeQuery.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Queries\\GetAvailableRoomsByDateTimeQuery.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Queries\\GetAvailableRoomsByDateTimeQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T03:38:55.381Z"
+              "WhenOpened": "2024-10-15T14:00:38.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -392,23 +497,355 @@
               "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Queries\\GetReservationsByRoomIdQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T03:23:39.89Z"
+              "WhenOpened": "2024-10-17T03:23:39.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "MessageAboutReservation.html",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutReservation.html",
-              "RelativeDocumentMoniker": "Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutReservation.html",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutReservation.html",
-              "RelativeToolTip": "Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutReservation.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-16T18:59:26.686Z"
+              "Title": "GetAvailableRoomsByDateTimeQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetAvailableRoomsByDateTimeQueryHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetAvailableRoomsByDateTimeQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetAvailableRoomsByDateTimeQueryHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetAvailableRoomsByDateTimeQueryHandler.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAvwBoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:00:46.529Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "GetReservationsByRoomIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetReservationsByRoomIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetReservationsByRoomIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetReservationsByRoomIdQueryHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\QueryHandlers\\GetReservationsByRoomIdQueryHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T03:24:01.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Roomify.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\appsettings.json",
+              "RelativeToolTip": "Roomify.API\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T03:25:28.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\Reservation.cs",
+              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\Reservation.cs",
+              "RelativeToolTip": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\Reservation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:22:11.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Verification.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\SecondaryModels\\Verification.cs",
+              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Models\\SecondaryModels\\Verification.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\SecondaryModels\\Verification.cs",
+              "RelativeToolTip": "Roomify.Domain\\Entities\\Models\\SecondaryModels\\Verification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T03:14:40.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Roomify.Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Roomify.Infrastructure\\Persistance\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:02:48.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserView.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Views\\UserView.cs",
+              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Views\\UserView.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Views\\UserView.cs",
+              "RelativeToolTip": "Roomify.Domain\\Entities\\Views\\UserView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T05:49:12.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Views\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Views\\ResponseModel.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Views\\ResponseModel.cs",
+              "RelativeToolTip": "Roomify.Domain\\Entities\\Views\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:06:29.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TelegramChatId.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\SecondaryModels\\TelegramChatId.cs",
+              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Models\\SecondaryModels\\TelegramChatId.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\SecondaryModels\\TelegramChatId.cs",
+              "RelativeToolTip": "Roomify.Domain\\Entities\\Models\\SecondaryModels\\TelegramChatId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T02:52:00.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\Abstraction\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\Abstraction\\IApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\Abstraction\\IApplicationDbContext.cs",
+              "RelativeToolTip": "Roomify.Application\\Abstraction\\IApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T02:54:04.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20241023013610_third.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\Migrations\\20241023013610_third.cs",
+              "RelativeDocumentMoniker": "Roomify.Infrastructure\\Migrations\\20241023013610_third.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\Migrations\\20241023013610_third.cs",
+              "RelativeToolTip": "Roomify.Infrastructure\\Migrations\\20241023013610_third.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T01:36:11.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241023012741_second.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\Migrations\\20241023012741_second.cs",
+              "RelativeDocumentMoniker": "Roomify.Infrastructure\\Migrations\\20241023012741_second.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\Migrations\\20241023012741_second.cs",
+              "RelativeToolTip": "Roomify.Infrastructure\\Migrations\\20241023012741_second.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwEsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T01:27:42.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CancelReservationCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\CancelReservationCommandHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\CancelReservationCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\CancelReservationCommandHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\ReservetionCases\\Handlers\\CommandHandlers\\CancelReservationCommandHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA8wBYAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T03:31:51.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\User.cs",
+              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\User.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\User.cs",
+              "RelativeToolTip": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:22:08.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\Room.cs",
+              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\Room.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\Room.cs",
+              "RelativeToolTip": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:22:10.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LogUserInCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\LogUserInCommandHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\LogUserInCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\LogUserInCommandHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\LogUserInCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:02:44.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\Services\\AuthServices\\AuthService.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\Services\\AuthServices\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\Services\\AuthServices\\AuthService.cs",
+              "RelativeToolTip": "Roomify.Application\\Services\\AuthServices\\AuthService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwBsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:04:08.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DeleteUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\DeleteUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\DeleteUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\DeleteUserCommandHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\DeleteUserCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:02:43.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Enums\\Roles.cs",
+              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Enums\\Roles.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Enums\\Roles.cs",
+              "RelativeToolTip": "Roomify.Domain\\Entities\\Enums\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:02:39.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Roomify.API\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Roomify.API\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAvwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T04:23:31.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SendVerificationToUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\SendVerificationToUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\SendVerificationToUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\SendVerificationToUserCommandHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\UserCases\\Handlers\\CommandHandlers\\SendVerificationToUserCommandHandler.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAtwDcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:50:21.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MessageAboutEmailVerification.html",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutEmailVerification.html",
+              "RelativeDocumentMoniker": "Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutEmailVerification.html",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutEmailVerification.html",
+              "RelativeToolTip": "Roomify.API\\wwwroot\\HTMLMessages\\MessageAboutEmailVerification.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-17T10:39:38.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UpdateRoomCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\UpdateRoomCommandHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\UpdateRoomCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\UpdateRoomCommandHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\UpdateRoomCommandHandler.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:37:17.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CreateRoomCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\CreateRoomCommandHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\CreateRoomCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\CreateRoomCommandHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\CreateRoomCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:37:15.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DeleteRoomCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\DeleteRoomCommandHandler.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\DeleteRoomCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\DeleteRoomCommandHandler.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\CommandHandlers\\DeleteRoomCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:37:16.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UpdateRoomCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Commands\\UpdateRoomCommand.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Commands\\UpdateRoomCommand.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Commands\\UpdateRoomCommand.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\RoomCases\\Commands\\UpdateRoomCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T07:13:52.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CreateRoomCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Commands\\CreateRoomCommand.cs",
+              "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Commands\\CreateRoomCommand.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Commands\\CreateRoomCommand.cs",
+              "RelativeToolTip": "Roomify.Application\\UseCases\\RoomCases\\Commands\\CreateRoomCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T03:38:55.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
               "Title": "Roomify.API",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Roomify.API.csproj",
               "RelativeDocumentMoniker": "Roomify.API\\Roomify.API.csproj",
@@ -419,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 48,
               "Title": "Roomify.API.http",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.API\\Roomify.API.http",
               "RelativeDocumentMoniker": "Roomify.API\\Roomify.API.http",
@@ -431,7 +868,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 52,
               "Title": "20241016135821_first.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Infrastructure\\Migrations\\20241016135821_first.cs",
               "RelativeDocumentMoniker": "Roomify.Infrastructure\\Migrations\\20241016135821_first.cs",
@@ -443,31 +880,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\Room.cs",
-              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\Room.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\Room.cs",
-              "RelativeToolTip": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\Room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T04:22:10.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\User.cs",
-              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\User.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\User.cs",
-              "RelativeToolTip": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T04:22:08.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 49,
               "Title": "GetAllUsersQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\UserCases\\Handlers\\QueryHandlers\\GetAllUsersQueryHandler.cs",
               "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\UserCases\\Handlers\\QueryHandlers\\GetAllUsersQueryHandler.cs",
@@ -479,7 +892,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 50,
               "Title": "Roomify.Application.csproj",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\Roomify.Application.csproj",
               "RelativeDocumentMoniker": "Roomify.Application\\Roomify.Application.csproj",
@@ -491,19 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\Reservation.cs",
-              "RelativeDocumentMoniker": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\Reservation.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Domain\\Entities\\Models\\PrimaryModels\\Reservation.cs",
-              "RelativeToolTip": "Roomify.Domain\\Entities\\Models\\PrimaryModels\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T04:22:11.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 51,
               "Title": "GetAllRoomsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\Important\\Romify.Backend\\Roomify.Application\\UseCases\\RoomCases\\Handlers\\QeryHandlers\\GetAllRoomsQueryHandler.cs",
               "RelativeDocumentMoniker": "Roomify.Application\\UseCases\\RoomCases\\Handlers\\QeryHandlers\\GetAllRoomsQueryHandler.cs",

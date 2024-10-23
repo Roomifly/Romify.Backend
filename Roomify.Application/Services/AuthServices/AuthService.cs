@@ -30,8 +30,7 @@ namespace Roomify.Application.Services.AuthServices
                 new Claim("Id",user.Id.ToString()),
                 new Claim("Email",user.Email),
                 new Claim("Role",user.Role.ToString()),
-                new Claim("FirstName",user.FirstName),
-                new Claim("LastName",user.LastName),
+                new Claim("FullName",user.FullName),
                 new Claim("GroupName",user.GroupName),
                 new Claim("StudentId",user.StudentId),
                 new Claim("PhoneNumber",user.PhoneNumber)

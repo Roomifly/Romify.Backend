@@ -16,5 +16,7 @@ namespace Roomify.Domain.Entities.Models.PrimaryModels
         public TimeOnly FinishTime { get; set; }
         [JsonIgnore]
         public DateOnly Date { get; set; }
+        public string Description { get; set; }
+        public int ReserveId { get; set; }
     }
 }
